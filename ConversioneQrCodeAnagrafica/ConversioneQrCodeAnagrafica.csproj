@@ -9,6 +9,7 @@
     <Description>Piccola DLL per la conversione della stringa Json ottenuta dal QR dell'Agenzia dell'Entrate in un semplice Anagrafica Model</Description>
     <RepositoryUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
