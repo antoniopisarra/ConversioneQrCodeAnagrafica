@@ -7,6 +7,8 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Product>Fattura Elettronica</Product>
     <Description>Piccola DLL per la conversione della stringa Json ottenuta dal QR dell'Agenzia dell'Entrate in un semplice Anagrafica Model</Description>
+    <RepositoryUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
