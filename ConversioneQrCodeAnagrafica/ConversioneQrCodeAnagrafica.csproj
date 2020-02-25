@@ -4,12 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>ConversioneQrCodeAnagrafica</PackageId>
     <Authors>Antonio Pisarra</Authors>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Fattura Elettronica</Product>
     <Description>Piccola DLL per la conversione della stringa Json ottenuta dal QR dell'Agenzia dell'Entrate in un semplice Anagrafica Model</Description>
     <RepositoryUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <NeutralLanguage>it</NeutralLanguage>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
