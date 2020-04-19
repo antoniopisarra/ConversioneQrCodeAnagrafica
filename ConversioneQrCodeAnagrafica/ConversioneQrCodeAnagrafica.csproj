@@ -10,9 +10,10 @@
     <RepositoryUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <NeutralLanguage>it</NeutralLanguage>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
+    <PackageTags>fattura, elettronica, agenzia, entrate, italia, qrcode, json</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
