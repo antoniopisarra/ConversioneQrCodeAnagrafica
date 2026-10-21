@@ -1,23 +1,33 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>ConversioneQrCodeAnagrafica</PackageId>
-    <Authors>Antonio Pisarra</Authors>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Product>Fattura Elettronica</Product>
-    <Description>Piccola DLL per la conversione della stringa Json ottenuta dal QR dell'Agenzia dell'Entrate in un semplice Anagrafica Model</Description>
-    <RepositoryUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</RepositoryUrl>
-    <RepositoryType>GitHub</RepositoryType>
-    <NeutralLanguage>it</NeutralLanguage>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <PackageTags>fattura, elettronica, agenzia, entrate, italia, qrcode, json</PackageTags>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Authors>Antonio Pisarra</Authors>
+    <Company>Logical Flow</Company>
+    <Product>Conversione QR Code Anagrafica</Product>
+    <Description>Converts the decoded JSON payload of an Agenzia delle Entrate tax QR code into a read-only C# contact model. Includes safe TryParse support. No image scanning or network requests.</Description>
+    <RepositoryUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>fattura;elettronica;agenzia;entrate;italia;qrcode;json;anagrafica</PackageTags>
+    <PackageReleaseNotes>Updated Newtonsoft.Json; added TryParse, bounded parsing and actionable errors; optional missing fields return empty strings. Existing constructor and property names retained. See CHANGELOG.md for behavior changes.</PackageReleaseNotes>
+    <NeutralLanguage>it</NeutralLanguage>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../README.en.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE" Pack="true" PackagePath="/" />
+    <None Include="../CHANGELOG.md" Pack="true" PackagePath="/" />
   </ItemGroup>
-
 </Project>

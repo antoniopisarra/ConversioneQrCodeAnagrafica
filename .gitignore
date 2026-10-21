@@ -338,3 +338,8 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+# Local release artifacts and scratch files
+artifacts/
+work/
+*.nupkg
+*.snupkg

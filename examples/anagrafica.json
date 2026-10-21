@@ -1,0 +1,17 @@
+{
+  "anag": {
+    "naz": "IT",
+    "cf": "00000000000",
+    "piva": "00000000000",
+    "denom": "AZIENDA ESEMPIO (DATI FITTIZI)",
+    "domFisc": {
+      "prov": "RM",
+      "cap": "00100",
+      "com": "ROMA",
+      "ind": "VIA ESEMPIO 1",
+      "naz": "IT"
+    }
+  },
+  "dtGenQr": "2026-10-21T12:00:00+0200",
+  "SDI": { "pec": "fatture@example.invalid", "cod": "0000000" }
+}
