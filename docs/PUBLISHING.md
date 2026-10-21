@@ -34,3 +34,7 @@ dotnet pack ConversioneQrCodeAnagrafica -c Release -o artifacts
 `artifacts/ConversioneQrCodeAnagrafica.1.1.0.nupkg` contiene DLL, XML API, licenza e README. La generazione locale non pubblica nulla. Il comando `dotnet add package ConversioneQrCodeAnagrafica` scarica l’ultima versione pubblica disponibile, non il codice modificato localmente.
 
 Prima di una nuova pubblicazione verificare che il changelog distingua input validi compatibili da cambi di comportamento per input errati e che il pacchetto sia creato dal commit desiderato. Non aggiungere credenziali o dati anagrafici reali al repository.
+
+## Pubblicazione 1.1.0
+
+Il workflow [39597258729](https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica/actions/runs/39597258729) ha completato con successo compilazione, test, autenticazione OIDC e invio della versione 1.1.0 il 21 ottobre 2026. Il badge NuGet nei README segue automaticamente la versione pubblica indicizzata, con possibili ritardi dovuti all’indicizzazione e alla cache.

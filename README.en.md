@@ -1,5 +1,7 @@
 # Conversione QR Code Anagrafica
 
+[![NuGet](https://img.shields.io/nuget/v/ConversioneQrCodeAnagrafica.svg?logo=nuget)](https://www.nuget.org/packages/ConversioneQrCodeAnagrafica/)
+
 Made by [Logical Flow](https://www.logicalflow.it/en/) · Author: Antonio Pisarra
 
 [Italiano](https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica/blob/master/README.md) · [NuGet](https://www.nuget.org/packages/ConversioneQrCodeAnagrafica/) · [Source](https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica) · [MIT license](https://github.com/antoniopisarra/ConversioneQrCodeAnagrafica/blob/master/LICENSE)
